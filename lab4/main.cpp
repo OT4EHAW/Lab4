@@ -10,7 +10,7 @@ int main()
 	Rational n1(1, 2);
 	double x;
 
-	cout << "y(x) = (x2 - 1.3) / (x2 + 1.6) \nEnter value x: " << endl;
+	cout << "y(x) = 2x + (1.3 / x) \nEnter value x: " << endl;
 	cin >> x;
 	Rational res = n1.FromDoubleToRational(y2(x));
 	cout << "y(" << x << ") = " << res << endl;
@@ -26,5 +26,5 @@ int main()
 
 double y2(double x2)
 {
-	return (x2 - 1.3) / (x2 + 1.6);
+	return 2x + (1.3 / x);
 }
