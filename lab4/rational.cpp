@@ -37,7 +37,7 @@ ostream& operator << (ostream& out, const Rational& a)
 }
 
 Rational y1(const Rational& x) {
-	return (x - Rational(13, 10))/(x + Rational(16, 10));
+	return (Rational(2,1) * x + (Rational(13, 10)/ x);
 }
 
 Rational operator + (const Rational& a, const Rational& b)
